@@ -12,11 +12,9 @@
 			}
 		},
 		onLoad() {
-
+			this.$u.utils.isLogin()
 		},
-		methods: {
-
-		}
+		methods: {}
 	}
 </script>
 
